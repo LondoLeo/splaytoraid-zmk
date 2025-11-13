@@ -1,10 +1,11 @@
 manifest:
   remotes:
-    - name: zmk
-      url-base: https://github.com/LondoLeo
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
-      remote: zmk
+      remote: zmkfirmware
+      import: app/west.yml
       revision: main
   self:
     path: config
