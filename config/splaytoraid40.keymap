@@ -5,7 +5,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define TAPPING_TERM 200
-#define TAPPING_IDLE 140
+#define TAPPING_IDLE 0
 #define QUICK_TAP 200
 
 #define COMBO_IDLE 50
@@ -96,14 +96,12 @@
         };
     };
 
-  
     combos {
         compatible = "zmk,combos";
         ralt1 { key-positions = <22 23>; bindings = <&qsk RIGHT_ALT>; require-prior-idle-ms = <COMBO_IDLE>; timeout-ms = <COMBO_TERM>; layers = <BASE SYM>;};
         ralt2 { key-positions = <26 27>; bindings = <&qsk RIGHT_ALT>; require-prior-idle-ms = <COMBO_IDLE>; timeout-ms = <COMBO_TERM>;layers = <BASE SYM>;};
     };
 
-     
     conditional_layers {
         compatible = "zmk,conditional-layers";
         sys_layer {
@@ -111,7 +109,6 @@
             then-layer = <SYS>;
         };
     };
-
 
     // Numbers 
     num1: SHIFT_OVERRIDE(SQT , N1);
