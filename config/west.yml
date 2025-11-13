@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: freya-irl
-      url-base: https://github.com/freya-irl
+    - name: zmk
+      url-base: https://github.com/LondoLeo
   projects:
     - name: zmk
-      remote: freya-irl
+      remote: LondoLeo
       revision: main
   self:
     path: config
