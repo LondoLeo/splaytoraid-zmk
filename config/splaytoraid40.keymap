@@ -145,7 +145,7 @@
                             &kp Q      &kp W       &kp F       &kp P          &kp B          &kp Z          &kp L          &kp U       &kp Y       &kp BSPC
                 &kp MINUS   &kp A      &hml LALT R &hml LGUI S &hml LCTRL T   &kp G          &kp M          &hmr RCTRL N   &hmr RGUI E &hmr RALT I &kp O    &gt   
                 &kp EQUAL   &kp J      &kp X       &kp C       &kp D          &kp V          &kp K          &kp H          &comm       &dot        &kp FSLH &kp BSLH
-                                         &sk LALT  &qmt LSHFT ESC &blt FUN SPACE &none &qlt NAV RET   &qlt SYM TAB &sk RALT  
+                                       &sk LALT    &qmt LSHFT ESC  &blt FUN SPACE  &kp C_MUTE   &qlt NAV RET   &qlt SYM TAB &sk RALT  
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
