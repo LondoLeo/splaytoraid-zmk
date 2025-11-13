@@ -114,27 +114,23 @@
 
 
     // Numbers 
-    num1: SHIFT_OVERRIDE(SQT, N1);
+    num1: SHIFT_OVERRIDE(SQT , N1);
     num2: SHIFT_OVERRIDE(LBKT, N2);
     num3: SHIFT_OVERRIDE(LBRC, N3);
     num4: SHIFT_OVERRIDE(LPAR, N4);
-    num5: SHIFT_OVERRIDE(AT, N5);
+    num5: SHIFT_OVERRIDE(AT  , N5);
     num6: SHIFT_OVERRIDE(HASH, N6);
     num7: SHIFT_OVERRIDE(RPAR, N7);
     num8: SHIFT_OVERRIDE(RBRC, N8);
     num9: SHIFT_OVERRIDE(RBKT, N9);
-    num0: SHIFT_OVERRIDE(DQT, N0);
+    num0: SHIFT_OVERRIDE(DQT , N0);
 
     comm: SHIFT_OVERRIDE(COMMA, SEMI);
     dot: SHIFT_OVERRIDE(DOT, COLON);
 
     minus: SHIFT_OVERRIDE(MINUS, MINUS);
     equal: SHIFT_OVERRIDE(EQUAL, EQUAL);
-    under: SHIFT_OVERRIDE(UNDER, CARET);
     gt: SHIFT_OVERRIDE(GT, LT);
-    excl: SHIFT_OVERRIDE(EXCL, PLUS);
-    star: SHIFT_OVERRIDE(STAR, HASH);
-    amps: SHIFT_OVERRIDE(AMPS, DLLR);
     
     keymap {
         compatible = "zmk,keymap";
