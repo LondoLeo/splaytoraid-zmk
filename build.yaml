@@ -17,5 +17,5 @@
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #     artifact-name: corne_left_with_studio
 # build.yaml
-board: ["seeeduino_xiao_ble"]
-shield: ["re-gret"]
+board: ["sparkfun_pro_micro_rp2040"]
+shield: ["splaytoraid40"]
