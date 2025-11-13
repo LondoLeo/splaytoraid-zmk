@@ -118,8 +118,8 @@
     num2: SHIFT_OVERRIDE(LBKT, N2);
     num3: SHIFT_OVERRIDE(LBRC, N3);
     num4: SHIFT_OVERRIDE(LPAR, N4);
-    num5: SHIFT_OVERRIDE(none, N5);
-    num6: SHIFT_OVERRIDE(none, N6);
+    num5: SHIFT_OVERRIDE(AT, N5);
+    num6: SHIFT_OVERRIDE(HASH, N6);
     num7: SHIFT_OVERRIDE(RPAR, N7);
     num8: SHIFT_OVERRIDE(RBRC, N8);
     num9: SHIFT_OVERRIDE(RBKT, N9);
@@ -152,7 +152,7 @@
         sym_layer {
             display-name = "Sym";    
             bindings = <
-                            &kp GRAVE  &kp EXCL   &kp HASH    &kp TILDE       &none         &none           &kp CARET      &kp PRCNT   &kp AT     &trans   
+                            &kp GRAVE  &kp EXCL   &kp TILDE   &none           &none         &none           &none          &kp PRCNT   &kp CARET  &trans   
                 &kp UNDER   &num1      &num2      &num3       &num4           &num5         &num6           &num7          &num8       &num9      &num0     &kp LT
                 &kp PLUS    &kp DLLR   &none      &none       &kp AMPS        &none         &none           &kp STAR       &none       &kp COLON  &kp RA(N5)&kp PIPE
                                           &trans  &trans      &trans  &trans  &trans        &trans          &trans
