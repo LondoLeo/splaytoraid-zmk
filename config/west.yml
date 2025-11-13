@@ -1,0 +1,10 @@
+manifest:
+  remotes:
+    - name: freya-irl
+      url-base: https://github.com/freya-irl
+  projects:
+    - name: zmk
+      remote: freya-irl
+      revision: main
+  self:
+    path: config
