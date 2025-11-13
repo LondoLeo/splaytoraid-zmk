@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/LondoLeo
   projects:
     - name: zmk
-      remote: LondoLeo
+      remote: zmk
       revision: main
   self:
     path: config
