@@ -147,6 +147,7 @@
                 &kp EQUAL   &kp J      &kp X       &kp C       &kp D          &kp V          &kp K          &kp H          &comm       &dot        &kp FSLH &kp BSLH
                                          &sk LALT  &qmt LSHFT ESC &blt FUN SPACE &none &qlt NAV RET   &qlt SYM TAB &sk RALT  
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
         sym_layer {
             display-name = "Sym";    
