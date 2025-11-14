@@ -115,8 +115,8 @@
     num2: SHIFT_OVERRIDE(LBKT, N2);
     num3: SHIFT_OVERRIDE(LBRC, N3);
     num4: SHIFT_OVERRIDE(LPAR, N4);
-    num5: SHIFT_OVERRIDE(PRCNT, N5);
-    num6: SHIFT_OVERRIDE(AT  , N6);
+    num5: SHIFT_OVERRIDE(AT  , N5);
+    num6: SHIFT_OVERRIDE(TILDE, N6);
     num7: SHIFT_OVERRIDE(RPAR, N7);
     num8: SHIFT_OVERRIDE(RBRC, N8);
     num9: SHIFT_OVERRIDE(RBKT, N9);
@@ -136,18 +136,18 @@
             display-name = "Base";
             bindings = <
                             &kp Q      &kp W       &kp F       &kp P          &kp B          &kp Z          &kp L          &kp U       &kp Y       &kp BSPC
-                &kp ESC     &kp A      &hml LALT R &hml LGUI S &hml LCTRL T   &kp G          &kp M          &hmr RCTRL N   &hmr RGUI E &hmr RALT I &kp O    &kp TAB
-                &kp GRAVE   &kp J      &kp X       &kp C       &kp D          &kp V          &kp K          &kp H          &comm       &dot        &kp FSLH &kp BSLH
-                                                   &sk LALT    &kp  LSHFT     &blt FUN SPACE &kp C_MUTE     &qlt NAV RET   &mo SYM     &sk RALT  
+                &kp MINUS   &kp A      &hml LALT R &hml LGUI S &hml LCTRL T   &kp G          &kp M          &hmr RCTRL N   &hmr RGUI E &hmr RALT I &kp O    &gt   
+                &kp EQUAL   &kp J      &kp X       &kp C       &kp D          &kp V          &kp K          &kp H          &comm       &dot        &kp FSLH &kp BSLH
+                                       &sk LALT    &qmt LSHFT ESC  &blt FUN SPACE  &kp C_MUTE   &qlt NAV RET   &qlt SYM TAB &sk RALT  
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
         sym_layer {
-            display-name = "Sym";    
+            display-name = "Sym";   
             bindings = <
-                            &kp GRAVE  &kp EXCL   &equal      &minus          &kp PLUS      &kp CARET       &kp LT         &kp GT      &kp UNDER  &trans   
-                &trans      &num1      &num2      &num3       &num4           &num5         &num6           &num7          &num8       &num9      &num0     &trans
-                &kp TILDE   &kp DLLR   &none      &kp HASH    &kp AMPS        &none         &none           &kp STAR       &none       &kp COLON  &kp RA(N5)&kp PIPE
+                            &kp GRAVE  &kp PRCNT  &kp HASH    &none           &none         &none           &kp TILDE      &kp EXCL    &kp CARET  &trans   
+                &kp UNDER   &num1      &num2      &num3       &num4           &num5         &num6           &num7          &num8       &num9      &num0     &kp LT
+                &kp PLUS    &kp DLLR   &none      &none       &kp AMPS        &none         &none           &kp STAR       &none       &kp COLON  &kp RA(N5)&kp PIPE
                                           &trans  &trans      &trans  &trans  &trans        &trans          &trans
             >;
         };
