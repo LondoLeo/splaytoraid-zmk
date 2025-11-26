@@ -184,7 +184,7 @@
             display-name = "Sys";
             bindings = <
                             &none        &none          &none        &none          &none         &rgb_ug RGB_TOG &none          &none        &none      &none       
-                &none       &none        &kp C_PREV     &kp C_NEXT   &kp C_PP       &none         &kp C_MUTE      &kp C_VOL_DN   &kp C_VOL_UP &none      &none     &tg COLEMAK
+                &none       &none        &kp C_PREV     &kp C_NEXT   &kp C_PP       &none         &kp C_MUTE      &kp C_VOL_DN   &kp C_VOL_UP &none      &none     &tog COLEMAK
                 &none       &none        &none          &none        &none          &none         &none           &none          &none        &studio_unlock &bootloader &none
                                                 &trans  &trans   &trans    &trans         &trans        &trans          &trans
             >;
