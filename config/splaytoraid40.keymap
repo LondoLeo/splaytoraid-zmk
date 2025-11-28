@@ -136,18 +136,18 @@
             display-name = "Base";
             bindings = <
                             &kp Q      &kp W       &kp F       &kp P          &kp B          &kp Z          &kp L          &kp U       &kp Y       &kp BSPC
-                &kp LCTRL   &kp A      &kp R       &kp S       &kp T          &kp G          &kp M          &kp N          &kp E       &kp I       &kp O    &kp RCTRL 
-                &kp LALT    &kp J      &kp X       &kp C       &kp D          &kp V          &kp K          &kp H          &comm       &dot        &kp FSLH &kp RALT  
-                                       &sk LGUI    &qmt LSHFT ESC  &blt FUN SPACE  &kp C_MUTE   &qlt NAV RET   &qlt SYM TAB &sk RALT  
+                &kp GRAVE   &kp A      &hml LALT R &hml LGUI S &hml LCTRL T   &kp G          &kp M          &hmr RCTRL N   &hmr RGUI E &hmr RALT I &kp O    &kp BSLH
+                &kp EQUAL   &kp J      &kp X       &kp C       &kp D          &kp V          &kp K          &kp H          &comm       &dot        &kp FSLH &kp BSLH
+                                       &sk LALT    &qmt LSHFT ESC  &blt FUN SPACE  &kp C_MUTE   &qlt NAV RET   &qlt SYM TAB &sk RALT  
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
         sym_layer {
             display-name = "Sym";   
             bindings = <
-                            &kp GRAVE  &kp EXCL   &equal      &minus          &kp PLUS      &kp CARET       &kp LT         &kp GT      &kp UNDER  &trans   
-                &trans      &num1      &num2      &num3       &num4           &num5         &num6           &num7          &num8       &num9      &num0     &trans    
-                &trans      &kp DLLR   &kp TILDE  &kp PIPE    &kp AMPS        &kp HASH      &none           &kp STAR       &kp BSLH    &kp COLON  &kp RA(N5)&trans    
+                            &kp HASH   &kp EXCL   &equal      &minus          &kp PLUS      &kp CARET       &kp LT         &kp GT      &kp UNDER  &trans   
+                &kp TILDE   &num1      &num2      &num3       &num4           &num5         &num6           &num7          &num8       &num9      &num0     &kp PIPE
+                &kp PLUS    &kp DLLR   &none      &none       &kp AMPS        &none         &none           &kp STAR       &none       &kp COLON  &kp RA(N5)&kp PIPE
                                           &trans  &trans      &trans  &trans  &trans        &trans          &trans
             >;
         };
