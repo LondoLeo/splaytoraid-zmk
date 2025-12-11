@@ -137,7 +137,7 @@
             bindings = <
                             &kp Q      &kp W       &kp F       &kp P          &kp B          &kp Z          &kp L          &kp U       &kp Y       &kp BSPC
                 &kp GRAVE   &kp A      &hml LALT R &hml LGUI S &hml LCTRL T   &kp G          &kp M          &hmr RCTRL N   &hmr RGUI E &hmr RALT I &kp O    &kp BSLH
-                &kp EQUAL   &kp J      &kp X       &kp C       &kp D          &kp V          &kp K          &kp H          &comm       &dot        &kp FSLH &kp BSLH
+                &kp LEFT    &kp J      &kp X       &kp C       &kp D          &kp V          &kp K          &kp H          &comm       &dot        &kp FSLH &kp RIGHT
                                        &sk LALT    &qmt LSHFT ESC  &blt FUN SPACE  &kp C_MUTE   &qlt NAV RET   &qlt SYM TAB &sk RALT  
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -147,7 +147,7 @@
             bindings = <
                             &kp HASH   &kp EXCL   &equal      &minus          &kp PLUS      &kp CARET       &kp LT         &kp GT      &kp UNDER  &trans   
                 &kp TILDE   &num1      &num2      &num3       &num4           &num5         &num6           &num7          &num8       &num9      &num0     &kp PIPE
-                &kp PLUS    &kp DLLR   &none      &none       &kp AMPS        &none         &none           &kp STAR       &none       &kp COLON  &kp RA(N5)&kp PIPE
+                &trans      &kp DLLR   &none      &none       &kp AMPS        &none         &none           &kp STAR       &none       &kp COLON  &kp RA(N5)&trans  
                                           &trans  &trans      &trans  &trans  &trans        &trans          &trans
             >;
         };
