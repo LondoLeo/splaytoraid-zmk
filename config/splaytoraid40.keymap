@@ -32,6 +32,7 @@
 #define LEFT_AND_THUMBS 0 1 2 3 4 10 11 12 13 14 15 22 23 24 25 26 27 34 35 36 37 38 39 40
 #define RIGHT_AND_THUMBS 5 6 7 8 9 16 17 18 19 20 21 28 29 30 31 32 33 34 35 36 37 38 39 40
 
+#define HYPR LC(LG(LA(LSHIFT)))
 
 / {
     behaviors {
@@ -100,7 +101,10 @@
         compatible = "zmk,combos";
         ralt1 { key-positions = <22 23>; bindings = <&qsk RIGHT_ALT>; require-prior-idle-ms = <COMBO_IDLE>; timeout-ms = <COMBO_TERM>; layers = <BASE SYM>;};
         ralt2 { key-positions = <26 27>; bindings = <&qsk RIGHT_ALT>; require-prior-idle-ms = <COMBO_IDLE>; timeout-ms = <COMBO_TERM>;layers = <BASE SYM>;};
+        hypr1 { key-positions = <1 2>; bindings = <&sk HYPR>; require-prior-idle-ms = <COMBO_IDLE>; timeout-ms = <COMBO_TERM>;layers = <BASE>;};
+        hypr2 { key-positions = <7 8>; bindings = <&sk HYPR>; require-prior-idle-ms = <COMBO_IDLE>; timeout-ms = <COMBO_TERM>;layers = <BASE>;};
     };
+    
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
@@ -111,7 +115,7 @@
     };
 
     // Numbers 
-    num1: SHIFT_OVERRIDE(SQT , N1);
+    num1: SHIFT_OVERRIDE(DQT , N1);
     num2: SHIFT_OVERRIDE(LBKT, N2);
     num3: SHIFT_OVERRIDE(LBRC, N3);
     num4: SHIFT_OVERRIDE(LPAR, N4);
@@ -120,7 +124,7 @@
     num7: SHIFT_OVERRIDE(RPAR, N7);
     num8: SHIFT_OVERRIDE(RBRC, N8);
     num9: SHIFT_OVERRIDE(RBKT, N9);
-    num0: SHIFT_OVERRIDE(DQT , N0);
+    num0: SHIFT_OVERRIDE(SQT , N0);
 
     comm: SHIFT_OVERRIDE(COMMA, SEMI);
     dot: SHIFT_OVERRIDE(DOT, COLON);
