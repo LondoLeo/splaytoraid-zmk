@@ -115,7 +115,7 @@
     };
 
     // Numbers 
-    num1: SHIFT_OVERRIDE(DQT , N1);
+    num1: SHIFT_OVERRIDE(SQT , N1);
     num2: SHIFT_OVERRIDE(LBKT, N2);
     num3: SHIFT_OVERRIDE(LBRC, N3);
     num4: SHIFT_OVERRIDE(LPAR, N4);
@@ -124,7 +124,7 @@
     num7: SHIFT_OVERRIDE(RPAR, N7);
     num8: SHIFT_OVERRIDE(RBRC, N8);
     num9: SHIFT_OVERRIDE(RBKT, N9);
-    num0: SHIFT_OVERRIDE(SQT , N0);
+    num0: SHIFT_OVERRIDE(DQT , N0);
 
     comm: SHIFT_OVERRIDE(COMMA, SEMI);
     dot: SHIFT_OVERRIDE(DOT, COLON);
